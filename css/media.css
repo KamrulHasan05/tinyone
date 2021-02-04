@@ -93,6 +93,9 @@
 	    border-radius: 5px;
 	}
 	/*footer start*/
+	footer{
+		padding-bottom: 70px;
+	}
 	.f_c{
 		margin-bottom: 30px;
 		text-align: center;
@@ -170,6 +173,9 @@
 	    border-radius: 10px;
 	}
 	/*footer start*/
+	footer{
+		padding-bottom: 70px;
+	}
 	.f_c{
 		margin-bottom: 50px;
 		text-align: center;
