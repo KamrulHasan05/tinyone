@@ -17,14 +17,12 @@ header {
     background-color: #fcdb00;
     padding: 15px 0;
 }
-.custom_nav{}
-.logo{}
+.custom_nav{
+    text-align: right;
+}
 .c_toggler:focus {
     box-shadow: none; 
 }
-.menu{}
-.menu ul{}
-.menu ul li{}
 .menu ul li a {
     font-size: 22px;
     font-weight: 700;
@@ -91,7 +89,6 @@ header {
 	padding-top: 80px;
 	padding-bottom: 100px;
 }
-.f_content{}
 .f_h{
 	font-size: 32px;
     font-weight: 700;
@@ -105,11 +102,9 @@ header {
 .mt_60{
 	margin-top: 60px;
 }
-.icon{}
 .icon i{
 	font-size: 50px;
 }
-.text{}
 .text h2 {
 	margin-bottom: 13px;
     font-size: 22px;
@@ -176,6 +171,7 @@ header {
 /*contact end*/
 /*footer start*/
 footer{
+	padding-bottom: 100px;
 	background-color: #010101;
 }
 .f_c{
