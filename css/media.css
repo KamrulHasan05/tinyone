@@ -1,42 +1,38 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	/*header start*/
-	header{
-		padding: 0;
-	}
+	
 	.menu ul li a {
-		padding-bottom: 0 !important;
-	     padding-left: 0 !important; 
-	     padding-right: 0 !important; 
+		padding: 0 0 !important;
+		font-size: 20px;
 	}
 	/*slider start*/
 	.slider {
-	    padding: 10px 0;
+	    padding-bottom: 45px;
 	}
 	.ind {
-	    bottom: -15px;
+	    bottom: -45px;
 	}
 	.ind li {
-	    width: 14px;
-	    height: 14px;
+	    width: 13px;
+	    height: 13px;
 	}
 	.s_content {
-	    margin-top: 5px;
+	    margin-top: 0px !important;
 	}
 	.b_h {
-	    font-size: 23px;
+	    font-size: 25px;
 	}
 	.b_h3 {
 		margin: 10px 0;
-	    font-size: 16px;
+		font-size: 18px;
+	    word-spacing: 0px;
+        letter-spacing: 0px;
 	}
 	.b_p {
-		font-size: 15px
-	     letter-spacing: 0px; 
-	}
-	.b_i {
-    	margin-top: 20px;
-	    margin-bottom: 10px;
+		margin-bottom: 15px;
+	    word-spacing: 0px;
+        letter-spacing: 0px;
 	}
 	.b_i i {
 	    margin-right: 25px;
@@ -44,29 +40,29 @@
 	}
 	/*feature start*/
 	.feature {
-	    padding-top: 35px;
-	    padding-bottom: 55px;
+	    padding-top: 50px;
+	    padding-bottom: 70px;
 	}
 	.f_h {
-	    font-size: 28px;
+	    font-size: 25px;
 	}
 	.f_p {
 		 font-size: 18px;
 	     letter-spacing: 0px; 
 	}
 	.mt_60 {
-	    margin-top: 25px;
+	    margin-top: 30px;
 	}
 	.icon i {
-	    font-size: 45px;
+	    font-size: 30px;
 	}
 	.text {
-	    margin-top: 15px;
+	    margin-top: 5px;
 	    text-align: center;
 	}
 	.text h2 {
-	    margin-bottom: 10px;
-	    font-size: 20px;
+	    margin-bottom: 5px;
+	    font-size: 18px;
 	}
 	.text p {
 	     word-spacing: 0px; 
@@ -75,22 +71,23 @@
 	/*feature end*/
 	/*contact start*/
 	.contact {
-	    padding-top: 35px;
-	    padding-bottom: 55px;
-	}
-	.f_button{
-	    margin-top: 10px;
+	    padding-top: 50px;
+	    padding-bottom: 70px;
 	}
 	.f_form {
 		margin-top: 25px;
-	    margin-bottom: 35px;
+	    margin-bottom: 30px;
+	}
+	.f_input{
+		height: 40px;
+	}
+	.f_button{
+	    margin-top: 10px;
+	    height: 40px;
 	}
 	.ul_icon i {
 		margin-right: 5px;
-		font-size: 25px;
-	    height: 25px;
-	    width: 35px;
-	    border-radius: 5px;
+		font-size: 30px;
 	}
 	/*footer start*/
 	footer{
@@ -107,54 +104,57 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 	/*header start*/
-	header{
-		padding: 0;
-	}
+	
 	.menu ul li a {
-		padding-bottom: 0 !important;
-	     padding-left: 0 !important; 
-	     padding-right: 0 !important; 
+		padding: 0 0 !important;
+		font-size: 20px;
 	}
 	/*slider start*/
 	.slider {
-	    padding: 15px 0;
-	}
-	.ind {
-	    bottom: -15px;
+	    padding-bottom: 60px;
 	}
 	.s_content {
-	    margin-top: 10px;
-	}
-	.b_h {
-	    font-size: 25px;
+	    margin-top: 20px;
 	}
 	.b_h3 {
-	    font-size: 17px;
-	}
-	.b_i {
-	    margin-top: 20px;
+	    word-spacing: 1px;
+    	letter-spacing: 1px;
 	}
 	.b_i i {
 	    margin-right: 25px;
-    	font-size: 33px;
+	}
+	.ind {
+	    bottom: -50px;
+	}
+	.ind li {
+	    width: 13px;
+	    height: 13px;
 	}
 	/*feature start*/
 	.feature {
-	    padding-top: 50px;
-	    padding-bottom: 70px;
+	    padding-top: 60px;
+	    padding-bottom: 80px;
 	}
 	.f_p {;
 	     letter-spacing: 0px; 
 	}
 	.mt_60 {
-	    margin-top: 35px;
+	    margin-top: 40px;
+	}
+	.icon i {
+	    font-size: 35px;
 	}
 	.text {
-	    margin-top: 20px;
+	    margin-top: 10px;
 	    text-align: center;
 	}
 	.text h2 {
-	    margin-bottom: 10px;
+	    margin-bottom: 5px;
+	    font-size: 20px;
+	}
+	.text p {
+	    word-spacing: 0px;
+	    letter-spacing: 0px;
 	}
 	/*feature end*/
 	/*contact start*/
@@ -167,10 +167,8 @@
 	    margin-bottom: 40px;
 	}
 	.ul_icon i {
-		font-size: 32px;
-	    height: 32px;
-	    width: 40px;
-	    border-radius: 10px;
+		margin-right: 10px;
+    	font-size: 35px;
 	}
 	/*footer start*/
 	footer{
@@ -186,29 +184,25 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 	/*header start*/
 	.menu ul li a {
-		padding-bottom: 0 !important;
-	     padding-left: 0 !important; 
-	     padding-right: 0 !important; 
+		padding: 0 0 !important;
 	}
 	/*slider start*/
-	.slider {
-	    padding: 20px 0;
-	}
 	.s_content {
-	    margin-top: 20px;
+	    margin-top: 30px;
 	}
 	.b_h {
 	    font-size: 28px;
 	}
 	.b_h3 {
-	    font-size: 18px;
+		margin: 13px 0;
+    	font-size: 18px;
+    	word-spacing: 0px;
 	}
-	.b_i {
-	    margin-top: 25px;
+	.b_p{
+	    margin-bottom: 25px;
 	}
 	.b_i i {
 	    margin-right: 30px;
-	    font-size: 35px;
 	}
 }
 
@@ -220,9 +214,6 @@
 	    padding-right: 36px !important;
 	}
 	/*slider start*/
-	.ind {
-	    bottom: -35px;
-	}
 
 }
 
